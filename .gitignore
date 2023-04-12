@@ -1,1 +1,5 @@
 .idea
+#忽略python_client所有文件
+3_python_client/*
+#不忽略python_client下的*.ipynb文件
+!python_client/*.ipynb
