@@ -15,6 +15,8 @@ rm -rf /etc/cni
 rm -rf /opt/cni
 rm -rf /var/lib/etcd
 rm -rf /var/etcd
+yum clean all
+yum makecache
 ```
 # 2. 删除所有k8s相关容器
 ```shell
